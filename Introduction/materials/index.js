@@ -7,4 +7,4 @@ function greeting(name) {
 greeting(firstName);
 // greeting(anotherName);
 // greeting(x);
-// para compilar: tsc index.ts
+// * para compilar: tsc index.ts
