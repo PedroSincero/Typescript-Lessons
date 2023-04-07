@@ -27,3 +27,12 @@ fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
 
+// 3 - boolean
+
+let a: boolean = false
+
+console.log(a);
+console.log(typeof a);
+
+// typescript não identifica 0 como valor false e 1 como valor true
+// a = 0;

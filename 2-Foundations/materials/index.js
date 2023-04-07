@@ -14,3 +14,7 @@ var lastName = "Henrique";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
+// 3 - boolean
+var a = false;
+console.log(a);
+console.log(typeof a);
