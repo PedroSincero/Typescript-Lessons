@@ -43,9 +43,11 @@ let ann:string = "Teste" // annotation - informo qual é o tipo
 
 let inf = "Teste" // inference - não defino, deixo o codigo definir
 
-inf = 1  // typescript não perminte mudar, mesmo sendo inference
+// inf = 1  // typescript não perminte mudar, mesmo sendo inference
 
-ann = 1 // mesma reação com annotation
+// ann = 1 // mesma reação com annotation
 
 // 5 - pratica de config
 // tsc --init
+
+console.log('testando ');
