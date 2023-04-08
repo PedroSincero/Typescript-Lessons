@@ -36,3 +36,13 @@ console.log(typeof a);
 
 // typescript não identifica 0 como valor false e 1 como valor true
 // a = 0;
+
+// 4 - inference e annotation
+
+let ann:string = "Teste" // annotation - informo qual é o tipo
+
+let inf = "Teste" // inference - não defino, deixo o codigo definir
+
+inf = 1  // typescript não perminte mudar, mesmo sendo inference
+
+ann = 1 // mesma reação com annotation
