@@ -25,3 +25,9 @@ console.log(num);
 // num.push('131')
 
 console.log(num[0]);
+
+// 3 - any 
+
+const arr1: any = [1, 'teste', true, [], {name: 'pedro'}];
+
+console.log(arr1);
