@@ -31,3 +31,13 @@ console.log(num[0]);
 const arr1: any = [1, 'teste', true, [], {name: 'pedro'}];
 
 console.log(arr1);
+
+// 4 - parametros de função/ tipagem
+
+function soma(a: number, b: number) {
+  console.log(a + b);
+}
+
+soma(1,1);
+
+// soma("a","b");
