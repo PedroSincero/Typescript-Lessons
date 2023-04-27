@@ -171,3 +171,19 @@ type PersonType = {
 // type PersonType = {
 //   age: number
 // }
+
+// 15 - literal types
+
+let test: 'teste';
+
+test = 'teste'
+
+console.log(test);
+
+function showDirections(direction: 'left' | 'right' | 'center') {
+  console.log(`A direção é ${direction}` );
+}
+
+showDirections('left');
+
+// showDirections('top');
