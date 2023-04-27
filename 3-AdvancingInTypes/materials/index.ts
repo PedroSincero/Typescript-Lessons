@@ -82,3 +82,15 @@ function showNumbers(a: number, b: number, c?: number) {
 
 showNumbers(1,2,3);
 showNumbers(1,2);
+
+// 9  - validando argumentos opcional
+
+function advancedGreeting(firstName: string, lastName?: string) {
+  // early return
+  if(!lastName) return `OLá, ${firstName} ${lastName}`;
+
+  return `Olá, ${firstName}, tudo bem ?`;
+}
+
+advancedGreeting('pedro');
+advancedGreeting('pedro', 'henrique');
