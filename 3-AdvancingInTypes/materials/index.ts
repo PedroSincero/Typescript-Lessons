@@ -58,3 +58,16 @@ function greet(name: string, callback: (name: string) => void): void {
 greet("John", (name) => {
   console.log(`Nice to meet you, ${name}!`);
 });
+
+// 7 - tipos de objetos
+
+function passCordinates(coord: {x: number, y: number}) {
+  console.log('X coordinates: ' + coord.x);
+  console.log('Y coordinates: ' + coord.y);
+}
+
+const objCoord = { x: 329, y: 84.2};
+
+passCordinates(objCoord);
+
+const pessoaObj:{name: string, subNome: string} = { name: 'pedro', subNome:'henrique'};
