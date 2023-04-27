@@ -147,3 +147,27 @@ const coordObj:Point = {
 }
 
 showCoords(coordObj);
+
+// 14 - interface x type alias
+
+// interface interage de forma parecida como var/let
+interface Person {
+  name: string
+}
+
+interface Person {
+  age: number
+}
+
+const somePerson: Person = { name: 'Pedro', age: 30};
+
+console.log(somePerson);
+
+// ja o type nao permite
+type PersonType = {
+  name: string
+}
+
+// type PersonType = {
+//   age: number
+// }
