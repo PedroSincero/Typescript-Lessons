@@ -47,3 +47,14 @@ soma(1,1);
 function greeting(name: string): string {
   return `oi ${name}`
 }
+
+// 6 - função anonima
+
+function greet(name: string, callback: (name: string) => void): void {
+  console.log(`Hello, ${name}!`);
+  callback(name);
+}
+
+greet("John", (name) => {
+  console.log(`Nice to meet you, ${name}!`);
+});
