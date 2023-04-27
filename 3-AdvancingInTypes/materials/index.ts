@@ -205,3 +205,11 @@ let n: bigint
 n = 1000n;
 
 console.log(n);
+
+// 18 - symbol
+
+let symbolA:symbol = Symbol('A');
+let symbolB = Symbol('B');
+
+console.log(symbolA == symbolB);
+console.log(symbolA === symbolB);
