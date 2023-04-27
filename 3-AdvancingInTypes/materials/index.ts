@@ -187,3 +187,13 @@ function showDirections(direction: 'left' | 'right' | 'center') {
 showDirections('left');
 
 // showDirections('top');
+
+// 16 - non null assertions operators
+
+const p = document.getElementById('p');
+
+// informar que pode vir vazio, p não quebrar o codigo
+console.log(p!.innerText);
+
+// determinar que é opcional
+console.log(p?.innerText);
