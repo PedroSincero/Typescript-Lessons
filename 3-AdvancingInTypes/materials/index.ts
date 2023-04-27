@@ -41,3 +41,9 @@ function soma(a: number, b: number) {
 soma(1,1);
 
 // soma("a","b");
+
+// 5  - retorno de função
+
+function greeting(name: string): string {
+  return `oi ${name}`
+}
