@@ -197,3 +197,11 @@ console.log(p!.innerText);
 
 // determinar que é opcional
 console.log(p?.innerText);
+
+// 17 - bigint
+
+let n: bigint
+
+n = 1000n;
+
+console.log(n);
